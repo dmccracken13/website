@@ -290,6 +290,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #portfolio {
 	padding: 100px 0;
 	background: #f6f6f6;
+	display: flex;
+	align-self: center;
+	flex-direction: row;
+}
+.portfolio {
+	display: flex;
+	align-self: center;
+	flex-direction: column;
 }
 .categories {
 	padding-bottom: 30px;
@@ -348,6 +356,9 @@ ol.type li a:hover {
 	-moz-transition-property: -moz-transform, opacity;
 	transition-property: transform, opacity;
 }
+/* .portfolio-items {
+	align-items: center;
+} */
 .portfolio-item {
 	margin: 15px 0;
 	-webkit-transition: all 0.5s ease-out;
@@ -355,6 +366,9 @@ ol.type li a:hover {
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
+	display: flex;
+	align-self: center;
+	flex-direction: column;
 }
 .portfolio-item:hover {
 	-webkit-transform: scale(1.1);
